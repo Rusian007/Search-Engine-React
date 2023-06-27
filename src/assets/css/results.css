@@ -1,0 +1,40 @@
+.results{
+    padding: 30px 25px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: #A9BCD0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #303646;
+    color: white;
+}
+
+.section_url > a{
+    margin-right: 10px;
+}
+
+.loading{
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+}
+
+.loading >img{
+    width: 55px;
+}
+
+.empty-result{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}

@@ -1,0 +1,64 @@
+
+
+.results-element{
+    margin-top: 55px;
+    padding-left: 160px;
+    padding-right: 160px;
+   
+}
+
+.element{
+    border: 2px solid #58A4B0;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.element > a{
+    background-color: #303646;
+    position: relative;
+    padding: 10px;
+    top: -30px;
+    left: 15px;
+    text-decoration: none;
+}
+
+a > h2{
+    display: inline;
+    text-decoration: none;
+}
+.highlited{
+    max-height: 220px;
+    overflow: auto;
+}
+.title-details{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.year > div{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 15px;
+    background-color: #58A4B0;
+    color: white;
+}
+
+em{
+    background-color: rgba(255, 255, 0, 0.384);
+    color: rgb(255, 255, 255);
+}
+
+.title> h2:hover{
+    text-decoration: underline;
+    cursor: pointer;;
+}
+
+@media only screen and (max-width: 480px) {
+    .results-element{
+      
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+  }
